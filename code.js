@@ -15,4 +15,3 @@
 const sayHello = function () {
     return "Hello";
 }
-

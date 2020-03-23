@@ -13,5 +13,5 @@
 // Lastly change to function expression was implemented from function helloworld ()
 
 const sayHello = function () {
-    return "Hello";
+    return "Hello, Sung!";
 }

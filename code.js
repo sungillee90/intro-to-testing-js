@@ -12,11 +12,16 @@
 // when I changed helloWorld to hello, it says "un-used" function (Expected 'undefined' to be 'function'.)
 // Lastly change to function expression was implemented from function helloworld ()
 function sayHello (name){
-    if (name === "Alex") {
-        return "Hello, Alex!"
-    } else if (name === "Pat") {
-        return "Hello, Pat!";
-    } else {
-        return "Hello, Jane!";
-    }
+    // if (name === "Alex") {
+    //     return "Hello, Alex!"
+    // } else if (name === "Pat") {
+    //     return "Hello, Pat!";
+    // } else {
+    //     return "Hello, Jane!";
+    // }
+
+    return ("Hello, " + name + "!");
 }
+sayHello("Alex");
+sayHello("Pat");
+sayHello("Jane");
